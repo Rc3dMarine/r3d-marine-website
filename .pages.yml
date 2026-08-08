@@ -1,0 +1,105 @@
+media:
+  input: assets
+  output: /assets
+  rename: safe
+  extensions: [png, jpg, jpeg, webp]
+
+content:
+  - name: site
+    label: Website Settings
+    type: file
+    path: data/site.json
+    format: json
+    operations:
+      delete: false
+    fields:
+      - name: hero_title
+        label: Main Title
+        type: string
+        required: true
+
+      - name: hero_subtitle
+        label: Subtitle
+        type: text
+
+      - name: logo
+        label: Logo
+        type: image
+
+      - name: hero_image
+        label: Main Hero Image
+        type: image
+
+      - name: instagram
+        label: Instagram URL
+        type: string
+
+      - name: cults
+        label: Cults3D URL
+        type: string
+
+      - name: youtube
+        label: YouTube URL
+        type: string
+
+      - name: about
+        label: About R3D Marine
+        type: text
+
+  - name: models
+    label: Models
+    type: file
+    path: data/models.json
+    format: json
+    list: true
+    operations:
+      delete: false
+    fields:
+      - name: name
+        label: Model Name
+        type: string
+        required: true
+
+      - name: category
+        label: Category
+        type: select
+        options:
+          values:
+            - Scale Replica
+            - RC Model
+            - Outboard Engine
+            - Marine Accessory
+
+      - name: description
+        label: Description
+        type: text
+
+      - name: cover
+        label: Main Image
+        type: image
+
+      - name: gallery
+        label: Gallery
+        type: image
+        options:
+          multiple:
+            max: 12
+          unique: true
+          extensions: [png, jpg, jpeg, webp]
+          rename: safe
+
+      - name: cults_url
+        label: Cults3D Link
+        type: string
+
+      - name: youtube_url
+        label: YouTube Link
+        type: string
+
+      - name: featured
+        label: Featured Model
+        type: boolean
+
+      - name: order
+        label: Display Order
+        type: number
