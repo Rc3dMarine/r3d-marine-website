@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "name": "Nimbus C11",
+    "category": "Scale Replica",
+    "description": "Detailed 3D scale replica of the Nimbus C11, developed for 3D printing with attention to exterior geometry, deck layout and recognizable marine details.",
+    "cover": "/assets/Nimbus c11 cite 1.png",
+    "gallery": [
+      "/assets/Nimbus c11 cite 1.png",
+      "/assets/Nimbus c11 cite2.png",
+      "/assets/nimbus-c11-site3.png",
+      "/assets/Nimbus c11 site4.png"
+    ],
+    "cults_url": "https://cults3d.com/en/3d-model/game/nimbus-c11-model",
+    "youtube_url": "https://www.youtube.com/@rc3d114",
+    "featured": true,
+    "order": 1
+  }
+]
