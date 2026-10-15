@@ -1,10 +1,13 @@
 {
-  "hero_title": "R3D Marine — Scale Marine Models & RC Design",
-  "hero_subtitle": "Detailed 3D replicas of real boats, RC marine models and printable components.",
+  "hero_title": "R3D MARINE",
+  "hero_kicker": "FUNCTIONAL SCALE ENGINEERING",
+  "hero_tagline": "REAL MACHINES. SCALED DOWN.",
+  "hero_subtitle": "Highly detailed functional RC replicas, designed and engineered from real marine machines.",
   "logo": "/assets/ChatGPT Image Aug 7, 2026, 01_36_22 AM.png",
   "hero_image": "/assets/Nimbus c11 cite 1.png",
   "instagram": "https://www.instagram.com/rc_3d_marine/",
   "cults": "https://cults3d.com/en/users/RC3DMARINE/3d-models",
   "youtube": "https://www.youtube.com/@rc3d114",
-  "about": "R3D Marine creates detailed digital replicas, RC boat projects and 3D-printable marine components."
+  "email": "3dprintingandrc@gmail.com",
+  "about": "R3D Marine creates functional scale replicas for people who see the engineering in every detail. Every project begins with the real machine — then earns its place on the water."
 }
