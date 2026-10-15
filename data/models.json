@@ -2,6 +2,7 @@
   {
     "name": "Mercury 600",
     "category": "Engine",
+    "status": "Available",
     "description": "Functional scale RC outboard inspired by the Mercury 600, developed as a detailed printable model with separate body components and an internal drivetrain concept for powered RC applications.",
     "cover": "/assets/mercury-600-1.png",
     "gallery": [
@@ -18,7 +19,8 @@
   {
     "name": "Mercury 400",
     "category": "Engine",
-    "description": "Scale RC outboard model inspired by the Mercury 400, created around recognizable exterior proportions and a printable multi-part construction for marine model projects.",
+    "status": "Under development",
+    "description": "Scale RC outboard model inspired by the Mercury 400, currently under development with focus on recognizable exterior proportions and a printable multi-part construction for marine model projects.",
     "cover": "/assets/mercury-400-1.png",
     "gallery": [
       "/assets/mercury-400-1.png",
@@ -34,7 +36,8 @@
   {
     "name": "Mercury 300",
     "category": "Engine",
-    "description": "Compact functional-scale outboard project inspired by the Mercury 300, designed for 3D printing with an emphasis on the external engine form and RC integration.",
+    "status": "Under development",
+    "description": "Compact functional-scale outboard project inspired by the Mercury 300, currently under development for 3D printing with an emphasis on the external engine form and RC integration.",
     "cover": "/assets/mercury-300-1.png",
     "gallery": [
       "/assets/mercury-300-1.png",
@@ -50,6 +53,7 @@
   {
     "name": "Rafnar 1200 Cross Cabin",
     "category": "Hull",
+    "status": "Available",
     "description": "Detailed scale interpretation of the Rafnar 1200 Cross Cabin, developed as an RC-ready marine model with the distinctive hull, cabin and twin-outboard arrangement reproduced for 3D printing.",
     "cover": "/assets/rafnar-1200-1.png",
     "gallery": [
@@ -66,6 +70,7 @@
   {
     "name": "Nimbus C11",
     "category": "Hull",
+    "status": "Available",
     "description": "Detailed 3D scale replica of the Nimbus C11, developed for 3D printing with attention to exterior geometry, deck layout, lighting details and recognizable marine proportions.",
     "cover": "/assets/Nimbus c11 cite 1.png",
     "gallery": [
@@ -82,6 +87,7 @@
   {
     "name": "Axopar 45 XC",
     "category": "Hull",
+    "status": "Available",
     "description": "Scale 3D replica of the Axopar 45 XC, modeled around the boat's characteristic profile, enclosed cabin and triple-outboard layout for printable RC and display builds.",
     "cover": "/assets/Axopar 45 xc site 1.png",
     "gallery": [
