@@ -1,18 +1,19 @@
-R3D Marine — Website V2
+R3D Marine — Website rebuild
 
-Cloudflare Pages update:
-1. Open Cloudflare > Workers & Pages > rc-3d-marine.
-2. Click Create deployment.
-3. Upload this ZIP (or drag the folder contents if prompted).
-4. Deploy to Production.
+Development branch: framer-rebuild
 
-Main links included:
-- Instagram
-- Cults3D
-- YouTube
+Preview workflow:
+1. Keep the live domain unchanged.
+2. Connect this GitHub repository to Cloudflare Workers Builds.
+3. Use the framer-rebuild branch as a preview deployment.
+4. Review desktop and mobile before merging to main.
 
-Files:
-index.html
-style.css
-script.js
-assets/
+The current rebuild includes:
+- R3D showroom-style homepage
+- Engines / Hulls / RC Systems sections
+- Available / Under development status labels
+- Project modal galleries
+- Cults3D links for released models
+- Instagram, YouTube and email links
+
+Preview trigger refreshed after enabling branch previews on 2026-10-15.
