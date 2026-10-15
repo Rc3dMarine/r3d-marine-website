@@ -100,5 +100,19 @@
     "youtube_url": "https://www.youtube.com/@rc3d114",
     "featured": false,
     "order": 6
+  },
+  {
+    "name": "Universal Trim System",
+    "category": "RC System",
+    "status": "Under development",
+    "description": "Universal RC outboard trim mechanism under development, designed as a compact adjustable mounting system for scale marine projects and functional steering/trim integration.",
+    "cover": "/assets/universal-trim-1.png",
+    "gallery": [
+      "/assets/universal-trim-1.png"
+    ],
+    "cults_url": "",
+    "youtube_url": "https://www.youtube.com/@rc3d114",
+    "featured": false,
+    "order": 7
   }
 ]
