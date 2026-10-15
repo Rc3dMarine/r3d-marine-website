@@ -3,16 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#05080c">
-  <meta name="description" content="R3D Marine — scale marine models, RC design and 3D printable projects.">
+  <meta name="theme-color" content="#172c3f">
+  <meta name="description" content="R3D Marine — functional scale marine engineering, RC boats and printable outboards.">
   <title>R3D Marine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="noise"></div>
-
-  <header class="site-header">
-    <a class="logo-link" href="#top" aria-label="R3D Marine home">
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="R3D Marine home">
       <img id="header-logo" src="assets/ChatGPT Image Aug 7, 2026, 01_36_22 AM.png" alt="R3D Marine">
     </a>
 
@@ -20,126 +21,111 @@
       <span></span><span></span>
     </button>
 
-    <nav class="nav-links">
+    <nav class="nav-links" aria-label="Main navigation">
       <a href="#models">Models</a>
-      <a href="#process">Process</a>
+      <a href="#engineering">Engineering</a>
       <a href="#about">About</a>
-      <a id="nav-cults" class="nav-cta" href="#" target="_blank" rel="noopener">Cults3D ↗</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <img id="hero-image" class="hero-image" src="" alt="R3D Marine featured model">
-      <div class="hero-shade"></div>
-      <div class="hero-copy reveal">
-        <div class="kicker"><span></span> R3D MARINE</div>
-        <h1 id="hero-title">R3D Marine</h1>
-        <p id="hero-subtitle">Scale marine models and RC design.</p>
-        <div class="hero-actions">
-          <a class="btn btn-light" href="#models">Explore models</a>
-          <a id="hero-cults" class="btn btn-glass" href="#" target="_blank" rel="noopener">Browse Cults3D ↗</a>
-        </div>
-      </div>
-
-      <div class="hero-meta">
-        <span>CAD DESIGN</span>
-        <span>3D PRINTING</span>
-        <span>RC ENGINEERING</span>
-      </div>
-      <a class="scroll-cue" href="#models">SCROLL <span>↓</span></a>
-    </section>
-
-    <section id="models" class="section models-section">
-      <div class="section-intro reveal">
-        <div>
-          <div class="kicker dark"><span></span> FEATURED PROJECTS</div>
-          <h2>Scale models built around the details.</h2>
-        </div>
-        <p>Explore current R3D Marine projects. Model information, images and links on this page are loaded directly from the content you manage in Pages CMS.</p>
-      </div>
-
-      <div id="project-grid" class="project-grid"></div>
-      <div id="models-empty" class="models-empty" hidden>No models have been published yet.</div>
-
-      <div class="center-action reveal">
-        <a id="models-cults" class="text-link" href="#" target="_blank" rel="noopener">See all available models on Cults3D <span>↗</span></a>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <img id="hero-image" class="hero-image" src="" alt="R3D Marine scale boat render">
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <p id="hero-kicker" class="eyebrow">FUNCTIONAL SCALE ENGINEERING</p>
+        <h1 id="hero-title">R3D MARINE</h1>
+        <h2 id="hero-tagline">REAL MACHINES. SCALED DOWN.</h2>
+        <p id="hero-subtitle" class="hero-text">Highly detailed functional RC replicas, designed and engineered from real marine machines.</p>
+        <a class="button button-light" href="#models">EXPLORE MODELS <span>↗</span></a>
       </div>
     </section>
 
-    <section id="showcase" class="showcase" hidden>
-      <div id="showcase-track" class="showcase-track"></div>
-    </section>
-
-    <section id="process" class="section process-section">
-      <div class="process-title reveal">
-        <div class="kicker dark"><span></span> THE WORKFLOW</div>
-        <h2>From reference<br>to printable model.</h2>
+    <section id="models" class="catalog-shell">
+      <div class="catalog-column catalog-column-left">
+        <div class="catalog-heading reveal">
+          <p class="section-index">01 / ENGINES</p>
+          <h2>ENGINES</h2>
+        </div>
+        <div id="engines-grid" class="engine-grid"></div>
       </div>
 
-      <div class="process-list">
-        <div class="process-item reveal">
-          <span>01</span><h3>Reference</h3>
-          <p>Studying proportions, profiles, deck geometry and recognizable details from available references.</p>
+      <div class="catalog-column catalog-column-right" aria-hidden="true"></div>
+
+      <div class="hulls-block">
+        <div class="catalog-heading reveal">
+          <p class="section-index">02 / HULLS</p>
+          <h2>HULLS</h2>
         </div>
-        <div class="process-item reveal">
-          <span>02</span><h3>3D Design</h3>
-          <p>Building the model in CAD with clean geometry, scale consistency and RC integration in mind.</p>
+        <div id="hulls-grid" class="hulls-grid"></div>
+      </div>
+
+      <div class="systems-block">
+        <div class="catalog-heading reveal">
+          <p class="section-index">03 / RC SYSTEMS</p>
+          <h2>RC SYSTEMS</h2>
         </div>
-        <div class="process-item reveal">
-          <span>03</span><h3>Print Engineering</h3>
-          <p>Splitting, tolerancing and refining parts so the digital model can become a practical physical build.</p>
-        </div>
-        <div class="process-item reveal">
-          <span>04</span><h3>Test & Refine</h3>
-          <p>Iterating assemblies, visual details and functional components for better real-world results.</p>
+        <div id="systems-grid" class="systems-grid"></div>
+      </div>
+    </section>
+
+    <section id="engineering" class="engineering-section">
+      <div class="engineering-inner">
+        <p class="section-index reveal">04 / ENGINEERING</p>
+        <h2 class="reveal">FROM CAD DATA TO WATER.</h2>
+        <div class="engineering-grid">
+          <article class="engineering-item reveal">
+            <span>01</span>
+            <h3>DESIGN</h3>
+            <p>True-scale surfaces and reference-accurate proportions.</p>
+          </article>
+          <article class="engineering-item reveal">
+            <span>02</span>
+            <h3>ENGINEERING</h3>
+            <p>Functional mechanical systems, designed to work.</p>
+          </article>
+          <article class="engineering-item reveal">
+            <span>03</span>
+            <h3>3D PRINTING</h3>
+            <p>Precision-built parts with material intent for proper R&amp;D.</p>
+          </article>
+          <article class="engineering-item reveal">
+            <span>04</span>
+            <h3>RC SYSTEMS</h3>
+            <p>Power, control, steering and reliability at scale.</p>
+          </article>
         </div>
       </div>
     </section>
 
     <section id="about" class="about-section">
-      <div class="about-logo reveal">
-        <img id="about-logo" src="" alt="R3D Marine">
-      </div>
+      <div class="about-index reveal">05 / ABOUT R3D</div>
       <div class="about-copy reveal">
-        <div class="kicker"><span></span> R3D MARINE</div>
-        <h2>Marine 3D modeling & scale replicas.</h2>
-        <p id="about-text"></p>
-
-        <div class="social-links">
-          <a id="instagram-link" href="#" target="_blank" rel="noopener">Instagram <span>↗</span></a>
-          <a id="youtube-link" href="#" target="_blank" rel="noopener">YouTube <span>↗</span></a>
-          <a id="about-cults" href="#" target="_blank" rel="noopener">Cults3D <span>↗</span></a>
-        </div>
+        <p id="about-text">R3D Marine creates functional scale replicas for people who see the engineering in every detail. Every project begins with the real machine — then earns its place on the water.</p>
       </div>
     </section>
 
-    <section class="cta-section">
-      <div class="reveal">
-        <p class="kicker centered"><span></span> R3D MARINE <span></span></p>
-        <h2>Follow new projects and releases.</h2>
-        <p>See new designs, work in progress and upcoming marine models.</p>
-        <div class="cta-actions">
-          <a id="cta-instagram" class="btn btn-light" href="#" target="_blank" rel="noopener">Follow on Instagram ↗</a>
-          <a id="cta-youtube" class="btn btn-outline" href="#" target="_blank" rel="noopener">Watch on YouTube ↗</a>
-        </div>
+    <section class="latest-section">
+      <div class="latest-inner">
+        <p class="section-index reveal">06 / LATEST PROJECTS</p>
+        <div id="latest-grid" class="latest-grid"></div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="footer-top">
-      <img id="footer-logo" src="" alt="R3D Marine">
-      <a href="#top">Back to top ↑</a>
-    </div>
-    <div class="footer-bottom">
-      <span>© <span id="year"></span> R3D Marine</span>
-      <span>Independent scale-model project. Product and brand names belong to their respective owners.</span>
+  <footer id="contact" class="site-footer">
+    <div class="footer-brand">R3D MARINE / <span id="year"></span></div>
+    <div class="footer-links">
+      <a id="instagram-link" href="#" target="_blank" rel="noopener">INSTAGRAM ↗</a>
+      <a id="cults-link" href="#" target="_blank" rel="noopener">CULTS3D ↗</a>
+      <a id="youtube-link" href="#" target="_blank" rel="noopener">YOUTUBE ↗</a>
+      <a id="email-link" href="#">CONTACT <span id="email-text"></span></a>
     </div>
   </footer>
 
   <div id="model-modal" class="model-modal" aria-hidden="true">
-    <button id="modal-close" class="modal-close" aria-label="Close">×</button>
+    <button id="modal-close" class="modal-close" aria-label="Close project">×</button>
     <div class="modal-panel">
       <div class="modal-media">
         <img id="modal-main-image" src="" alt="">
@@ -148,10 +134,11 @@
       <div class="modal-copy">
         <p id="modal-category" class="modal-category"></p>
         <h2 id="modal-title"></h2>
+        <p id="modal-status" class="modal-status"></p>
         <p id="modal-description"></p>
         <div class="modal-actions">
-          <a id="modal-cults" class="btn btn-light" href="#" target="_blank" rel="noopener">View on Cults3D ↗</a>
-          <a id="modal-youtube" class="btn btn-outline" href="#" target="_blank" rel="noopener">Watch video ↗</a>
+          <a id="modal-cults" class="button button-light" href="#" target="_blank" rel="noopener">VIEW ON CULTS3D ↗</a>
+          <a id="modal-youtube" class="button button-outline" href="#" target="_blank" rel="noopener">YOUTUBE ↗</a>
         </div>
       </div>
     </div>
