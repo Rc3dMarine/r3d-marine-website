@@ -1,8 +1,72 @@
 [
   {
+    "name": "Mercury 600",
+    "category": "Engine",
+    "description": "Functional scale RC outboard inspired by the Mercury 600, developed as a detailed printable model with separate body components and an internal drivetrain concept for powered RC applications.",
+    "cover": "/assets/mercury-600-1.png",
+    "gallery": [
+      "/assets/mercury-600-1.png",
+      "/assets/mercury-600-2.png",
+      "/assets/mercury-600-3.png",
+      "/assets/mercury-600-4.png"
+    ],
+    "cults_url": "https://cults3d.com/en/3d-model/game/mercury-600-rc-outboard-lagiosg-2",
+    "youtube_url": "https://www.youtube.com/@rc3d114",
+    "featured": false,
+    "order": 1
+  },
+  {
+    "name": "Mercury 400",
+    "category": "Engine",
+    "description": "Scale RC outboard model inspired by the Mercury 400, created around recognizable exterior proportions and a printable multi-part construction for marine model projects.",
+    "cover": "/assets/mercury-400-1.png",
+    "gallery": [
+      "/assets/mercury-400-1.png",
+      "/assets/mercury-400-2.png",
+      "/assets/mercury-400-3.png",
+      "/assets/mercury-400-4.png"
+    ],
+    "cults_url": "",
+    "youtube_url": "https://www.youtube.com/@rc3d114",
+    "featured": false,
+    "order": 2
+  },
+  {
+    "name": "Mercury 300",
+    "category": "Engine",
+    "description": "Compact functional-scale outboard project inspired by the Mercury 300, designed for 3D printing with an emphasis on the external engine form and RC integration.",
+    "cover": "/assets/mercury-300-1.png",
+    "gallery": [
+      "/assets/mercury-300-1.png",
+      "/assets/mercury-300-2.png",
+      "/assets/mercury-300-3.png",
+      "/assets/mercury-300-4.png"
+    ],
+    "cults_url": "",
+    "youtube_url": "https://www.youtube.com/@rc3d114",
+    "featured": false,
+    "order": 3
+  },
+  {
+    "name": "Rafnar 1200 Cross Cabin",
+    "category": "Hull",
+    "description": "Detailed scale interpretation of the Rafnar 1200 Cross Cabin, developed as an RC-ready marine model with the distinctive hull, cabin and twin-outboard arrangement reproduced for 3D printing.",
+    "cover": "/assets/rafnar-1200-1.png",
+    "gallery": [
+      "/assets/rafnar-1200-1.png",
+      "/assets/rafnar-1200-2.png",
+      "/assets/rafnar-1200-3.png",
+      "/assets/rafnar-1200-4.png"
+    ],
+    "cults_url": "https://cults3d.com/en/3d-model/game/rafnar-1200-cross-cabin",
+    "youtube_url": "https://www.youtube.com/@rc3d114",
+    "featured": false,
+    "order": 4
+  },
+  {
     "name": "Nimbus C11",
-    "category": "Scale Replica",
-    "description": "Detailed 3D scale replica of the Nimbus C11, developed for 3D printing with attention to exterior geometry, deck layout and recognizable marine details.",
+    "category": "Hull",
+    "description": "Detailed 3D scale replica of the Nimbus C11, developed for 3D printing with attention to exterior geometry, deck layout, lighting details and recognizable marine proportions.",
     "cover": "/assets/Nimbus c11 cite 1.png",
     "gallery": [
       "/assets/Nimbus c11 cite 1.png",
@@ -13,6 +77,22 @@
     "cults_url": "https://cults3d.com/en/3d-model/game/nimbus-c11-model",
     "youtube_url": "https://www.youtube.com/@rc3d114",
     "featured": true,
-    "order": 1
+    "order": 5
+  },
+  {
+    "name": "Axopar 45 XC",
+    "category": "Hull",
+    "description": "Scale 3D replica of the Axopar 45 XC, modeled around the boat's characteristic profile, enclosed cabin and triple-outboard layout for printable RC and display builds.",
+    "cover": "/assets/Axopar 45 xc site 1.png",
+    "gallery": [
+      "/assets/Axopar 45 xc site 1.png",
+      "/assets/Axopar 45 xc site 2.png",
+      "/assets/Axopar 45 xc site 3.png",
+      "/assets/Axopar 45 xc site 4.png"
+    ],
+    "cults_url": "https://cults3d.com/en/3d-model/game/axopar-45",
+    "youtube_url": "https://www.youtube.com/@rc3d114",
+    "featured": false,
+    "order": 6
   }
 ]
