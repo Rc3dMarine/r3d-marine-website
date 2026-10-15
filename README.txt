@@ -4,7 +4,7 @@ Development branch: framer-rebuild
 
 Preview workflow:
 1. Keep the live domain unchanged.
-2. Connect this GitHub repository to Cloudflare Pages.
+2. Connect this GitHub repository to Cloudflare Workers Builds.
 3. Use the framer-rebuild branch as a preview deployment.
 4. Review desktop and mobile before merging to main.
 
@@ -15,3 +15,5 @@ The current rebuild includes:
 - Project modal galleries
 - Cults3D links for released models
 - Instagram, YouTube and email links
+
+Preview trigger refreshed after enabling branch previews on 2026-10-15.
